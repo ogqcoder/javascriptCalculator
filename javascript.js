@@ -9,6 +9,6 @@ cont.onchange = function () {
 
   document.getElementById("tipOutput").innerHTML = tip + "%";
   document.getElementById("splitOutput").innerHTML = split;
-  document.getElementById("newBillId").innerHTML = newBillEach;
-  document.getElementById("tipEachOutput").innerHTML = tipEach;
+  document.getElementById("newBillId").innerHTML = newBillEach.toFixed(2);
+  document.getElementById("tipEachOutput").innerHTML = tipEach.toFixed(2);
 };
